@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    width: 317px;
+    height: 317px;
+}
+
+/****** Main content section ******/
+
+main {
+    width: 317px;
+    height: 399px;
+    background-color: #1A1B21;
+}
+
+.developer-info {
+    text-align: center;
+}
+
+.developer-info > h2 {
+    font-size: 1.56rem;
+}
+
+.developer-info > h2,
+.developer-info > h3 {
+    margin-bottom: 0;
+}
+
+.developer-info > h3 {
+    margin-top: 0.2em;
+    color: #F3BF99;
+    font-size: 0.8rem;
+}
+
+.developer-info > p {
+    margin-top: 0.8em;
+    margin-bottom: 2em;
+    font-size: 0.64rem;
+}
+
+/****** Main content button layout ******/
+
+.contacts-btn {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.primary-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    padding: 0.5em 1em;
+}
+
+.button-img {
+    width: 16px;
+    height: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    
+}
+
+.button-one a {
+   color: #1E1F26;
+}
+
+.button-two a {
+   color: #fff;
+}
+
+
+.primary-btn .button-img {
+    margin-right: 5px;
+}
+
+.button-one {
+    margin-right: 10px;
+    background-color: #D1D5DB;
+    color: #1E1F26;
+}
+
+.button-one:hover {
+    background-color: #5093E2;
+    cursor: pointer;
+}
+
+.button-one a:hover {
+    color: #fff;
+}
+
+.button-two {
+    background-color: #5093E2;
+}
+
+.button-two:hover {
+    background-color: #D1D5DB; 
+    cursor: pointer;
+}
+
+.button-two a:hover {
+    color: #1E1F26; 
+}
